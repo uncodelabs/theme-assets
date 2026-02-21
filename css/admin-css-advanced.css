@@ -6,8 +6,8 @@
 
 /* ── HEADER ── */
 header.js-head-main.head-main.head-colors {
-  --header-background: yellow !important;
-  background-color: yellow !important;
+  --header-background: #FFFFFF !important;
+  background-color: #FFFFFF !important;
 }
 
 header.js-head-main .js-head-row {
