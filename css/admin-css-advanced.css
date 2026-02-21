@@ -5,21 +5,17 @@
    ============================================ */
 
 /* ── HEADER ── */
-header .js-head-main {
-  padding: 16px 0 12px !important;
+header.js-head-main {
   background-color: yellow !important;
 }
 
-header .js-head-main .container {
-  padding: 0 64px !important;
-}
-
-header .js-head-main .row {
+header.js-head-main .js-head-row {
+  padding: 16px 64px 12px !important;
   align-items: center !important;
 }
 
-header h1 a,
-header .js-store-name {
+header.js-head-main h1 a,
+header.js-head-main .js-store-name {
   font-family: Inter, sans-serif !important;
   font-size: 18px !important;
   font-weight: 700 !important;
@@ -28,11 +24,12 @@ header .js-store-name {
   letter-spacing: 0.05em !important;
 }
 
-header .js-nav-desktop-list {
+header.js-head-main .js-nav-desktop-color-container {
   background-color: #FFFFFF !important;
+  padding: 0 64px !important;
 }
 
-header .js-nav-desktop-list .nav-item a {
+header.js-head-main .js-nav-desktop-list a {
   font-family: Inter, sans-serif !important;
   font-size: 14px !important;
   font-weight: 500 !important;
@@ -42,24 +39,15 @@ header .js-nav-desktop-list .nav-item a {
   letter-spacing: 0.02em !important;
 }
 
-header .js-nav-desktop-list .nav-item a:hover {
+header.js-head-main .js-nav-desktop-list a:hover {
   color: #C6D51E !important;
 }
 
-header .js-nav-desktop-list .nav-list {
-  gap: 24px !important;
-}
-
-header .js-search-input {
+header.js-head-main .js-search-input {
   font-family: Inter, sans-serif !important;
   font-size: 14px !important;
   border-color: #E3E6EA !important;
   border-radius: 4px !important;
-}
-
-header .js-utilities .icon-inline {
-  fill: #0B0C0E !important;
-  color: #0B0C0E !important;
 }
 
 /* ── CATEGORIES FEATURED (Highlights) ── */
