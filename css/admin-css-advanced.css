@@ -4,6 +4,74 @@
    Loja: uncode-teste-gabi (Jesus Copy)
    ============================================ */
 
+/* ── HEADER ── */
+header .js-head-main {
+  padding: 16px 0 12px !important;
+  background-color: #FFFFFF !important;
+}
+
+header .js-head-main .container {
+  padding: 0 64px !important;
+}
+
+header .js-head-main .row {
+  align-items: center !important;
+}
+
+header h1 a,
+header .js-store-name {
+  font-family: Inter, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #0B0C0E !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+}
+
+header .js-nav-desktop-list {
+  background-color: #FFFFFF !important;
+}
+
+header .js-nav-desktop-list .nav-item a {
+  font-family: Inter, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #0B0C0E !important;
+  text-transform: uppercase !important;
+  padding: 12px 0 !important;
+  letter-spacing: 0.02em !important;
+}
+
+header .js-nav-desktop-list .nav-item a:hover {
+  color: #C6D51E !important;
+}
+
+header .js-nav-desktop-list .nav-list {
+  gap: 24px !important;
+}
+
+header .js-search-input {
+  font-family: Inter, sans-serif !important;
+  font-size: 14px !important;
+  border-color: #E3E6EA !important;
+  border-radius: 4px !important;
+}
+
+header .js-utilities .icon-inline {
+  fill: #0B0C0E !important;
+  color: #0B0C0E !important;
+}
+
+/* ── CATEGORIES FEATURED (Highlights) ── */
+[data-store="home-categories-featured"] {
+  background-color: #F5F6F8 !important;
+  padding: 0 64px 32px !important;
+}
+
+[data-store="home-categories-featured"] .container {
+  padding: 0 !important;
+}
+
 /* ── HERO SLIDER ── */
 [data-store="home-slider"] .js-home-slider-container {
   padding: 0 64px !important;
@@ -100,8 +168,16 @@ section.js-section-informative-banners.section-informative-banners-color .servic
 }
 
 /* ── SHELVES (Prateleiras — Bíblias, Livros, Lançamentos) ── */
-.section-featured-home .container {
+.section-featured-products-home .container {
   padding: 48px 64px !important;
+}
+
+.section-new-products-home .container {
+  padding: 32px 64px !important;
+}
+
+.section-sale-products-home .container {
+  padding: 32px 64px !important;
 }
 
 .section-featured-home h2 {
