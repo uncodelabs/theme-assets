@@ -1,0 +1,381 @@
+/* ============================================
+   CSS Avançado — Admin Nuvemshop
+   Gerado a partir dos contratos Figma
+   Loja: uncode-teste-gabi (Jesus Copy)
+   ============================================ */
+
+/* ── HERO SLIDER ── */
+[data-store="home-slider"] .js-home-slider-container {
+  padding: 0 64px !important;
+  overflow: hidden !important;
+  max-height: 582px !important;
+}
+
+[data-store="home-slider"] .js-home-main-slider-container {
+  overflow: hidden !important;
+  border-radius: 4px !important;
+}
+
+[data-store="home-slider"] .js-swiper-home-prev,
+[data-store="home-slider"] .js-swiper-home-next {
+  background-color: #F4F6F7 !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 8px 12px -4px rgba(46, 57, 86, 0.1) !important;
+}
+
+[data-store="home-slider"] .js-swiper-home-prev .icon-inline,
+[data-store="home-slider"] .js-swiper-home-next .icon-inline {
+  fill: #015C67 !important;
+  color: #015C67 !important;
+}
+
+[data-store="home-slider"] .swiper-pagination-bullet-active {
+  background-color: #151414 !important;
+  width: 16px !important;
+  border-radius: 4px !important;
+}
+
+[data-store="home-slider"] .swiper-pagination-bullet {
+  background-color: #E3E6EA !important;
+}
+
+/* ── ICON TEXT ROW (Benefits Bar) ── */
+section.js-section-informative-banners.section-informative-banners-color {
+  background-color: #FFFFFF !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .js-informative-banners-container.container {
+  padding: 16px 64px !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .js-informative-banners.swiper-container {
+  margin: 0 !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .swiper-wrapper {
+  align-items: center !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .swiper-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .swiper-slide .service-text-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .swiper-slide .service-text-content h3 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 1.14em !important;
+  text-transform: uppercase !important;
+  color: #0B0C0E !important;
+  text-align: left !important;
+  margin-bottom: 0 !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .swiper-slide .service-text-content p {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.71em !important;
+  color: #0B0C0E !important;
+  text-align: left !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .svg-icon-text {
+  width: 24px !important;
+  height: 24px !important;
+  fill: #0B0C0E !important;
+}
+
+section.js-section-informative-banners.section-informative-banners-color .service-item-image {
+  max-width: 39px !important;
+}
+
+/* ── SHELVES (Prateleiras — Bíblias, Livros, Lançamentos) ── */
+.section-featured-home .container {
+  padding: 48px 64px !important;
+}
+
+.section-featured-home h2 {
+  font-family: Inter, sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+  color: #0B0C0E !important;
+}
+
+.section-featured-home .js-swiper-featured-prev,
+.section-featured-home .js-swiper-featured-next,
+.section-featured-home .js-swiper-new-prev,
+.section-featured-home .js-swiper-new-next,
+.section-featured-home .js-swiper-sale-prev,
+.section-featured-home .js-swiper-sale-next {
+  background-color: #F4F6F7 !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 8px !important;
+}
+
+.section-featured-home .swiper-pagination-bullet-active {
+  background-color: #151414 !important;
+  width: 16px !important;
+  border-radius: 4px !important;
+}
+
+.section-featured-home .swiper-pagination-bullet {
+  background-color: #E3E6EA !important;
+}
+
+/* ── PROMOTIONAL BANNERS (4-grid) ── */
+[data-store="home-banner-promotional"] {
+  padding: 0 64px !important;
+  background-color: #FFFFFF !important;
+}
+
+[data-store="home-banner-promotional"] .js-banner-container {
+  padding: 32px 0 !important;
+}
+
+[data-store="home-banner-promotional"] .row {
+  gap: 16px !important;
+}
+
+[data-store="home-banner-promotional"] .js-banner-item {
+  border-radius: 4px !important;
+  overflow: hidden !important;
+}
+
+[data-store="home-banner-promotional"] .textbanner-image {
+  border-radius: 4px !important;
+}
+
+/* ── FEATURED PRODUCT (Produto destaque) ── */
+[data-store="home-product-main"] {
+  padding: 48px 0 !important;
+}
+
+[data-store="home-product-main"] .container {
+  padding: 0 64px !important;
+}
+
+/* ── NEWS BANNERS (2-banner row) ── */
+[data-store="home-banner-news"] {
+  background-color: #FFFFFF !important;
+  padding: 32px 0 !important;
+}
+
+[data-store="home-banner-news"] .js-banner-container {
+  padding: 0 64px !important;
+}
+
+[data-store="home-banner-news"] .js-banner-item {
+  overflow: hidden !important;
+  border-radius: 8px !important;
+}
+
+[data-store="home-banner-news"] .textbanner-image {
+  border-radius: 8px !important;
+}
+
+[data-store="home-banner-news"] .textbanner-text {
+  color: #FFFFFF !important;
+}
+
+/* ── GALLERY (Instagram Feed) ── */
+section.section-instafeed-home {
+  background-color: #FAFAFA !important;
+  padding: 48px 0 !important;
+}
+
+section.section-instafeed-home .container {
+  padding: 0 64px !important;
+}
+
+section.section-instafeed-home h2.instafeed-user {
+  font-family: Inter, sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+  color: #0B0C0E !important;
+}
+
+/* ── TESTIMONIALS ── */
+.section-testimonials-home {
+  background-color: #FFFFFF !important;
+  padding: 0 !important;
+}
+
+.section-testimonials-home .container {
+  padding: 32px 64px !important;
+}
+
+.section-testimonials-home h2.js-testimonial-main-title {
+  font-family: Inter, sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+  color: #0B0C0E !important;
+}
+
+.section-testimonials-home .js-testimonial-description {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.50em !important;
+  color: #0B0C0E !important;
+}
+
+.section-testimonials-home .js-swiper-testimonials-prev,
+.section-testimonials-home .js-swiper-testimonials-next {
+  background-color: #F4F6F7 !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 4px !important;
+}
+
+.section-testimonials-home .swiper-pagination-bullet-active {
+  background-color: #151414 !important;
+  width: 16px !important;
+  border-radius: 4px !important;
+}
+
+.section-testimonials-home .swiper-pagination-bullet {
+  background-color: #E3E6EA !important;
+}
+
+/* ── INSTITUTIONAL ── */
+.section-institutional-home {
+  background-color: #5D6C7D !important;
+  padding: 0 !important;
+}
+
+.section-institutional-home .js-institutional-container {
+  padding: 44px 64px !important;
+}
+
+.section-institutional-home .js-institutional-title {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+  color: #FFFFFF !important;
+  font-family: Inter, sans-serif !important;
+}
+
+.section-institutional-home .js-institutional-description {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 1.50em !important;
+  color: #FFFFFF !important;
+  font-family: Inter, sans-serif !important;
+}
+
+.section-institutional-home .js-swiper-institutional-prev,
+.section-institutional-home .js-swiper-institutional-next {
+  background-color: rgba(255,255,255,0.15) !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 4px !important;
+}
+
+/* ── BRANDS ── */
+.section-brands-home {
+  background-color: #FFFFFF !important;
+  padding: 0 !important;
+}
+
+.section-brands-home .container {
+  padding: 48px 64px !important;
+}
+
+.section-brands-home h2.js-brands-title {
+  font-family: Inter, sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+  color: #0B0C0E !important;
+}
+
+.section-brands-home .swiper-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.section-brands-home .js-swiper-brands-prev,
+.section-brands-home .js-swiper-brands-next {
+  background-color: #F4F6F7 !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 4px !important;
+}
+
+.section-brands-home .swiper-pagination-bullet-active {
+  background-color: #151414 !important;
+  width: 16px !important;
+  border-radius: 4px !important;
+}
+
+.section-brands-home .swiper-pagination-bullet {
+  background-color: #E3E6EA !important;
+}
+
+/* ── VIDEO ── */
+.section-video-home {
+  padding: 48px 0 !important;
+}
+
+.section-video-home .container {
+  padding: 0 64px !important;
+}
+
+.section-video-home h2 {
+  font-family: Inter, sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+  color: #0B0C0E !important;
+}
+
+/* ── FOOTER ── */
+footer {
+  padding-top: 48px !important;
+}
+
+footer .container {
+  padding: 0 64px !important;
+}
+
+/* ── UTILITY OVERRIDES ── */
+/* Remove py-4 padding override on sections that have explicit contract padding */
+.section-testimonials-home.py-4,
+.js-section-testimonials.py-4 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.section-institutional-home.py-4,
+.js-section-institutional-home.py-4 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Override .h4 utility on section titles */
+.section-testimonials-home h2.h4,
+.section-brands-home h2.h4 {
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 1.25em !important;
+}
+
+/* Override .font-small utility on testimonial text */
+.section-testimonials-home .font-small {
+  font-size: 16px !important;
+  line-height: 1.50em !important;
+}
